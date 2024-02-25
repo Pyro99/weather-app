@@ -1,7 +1,6 @@
 import React from 'react';
 
 const WeatherCard = ({ weather }) => {
-    console.log(weather);
   const { name, main, weather: [current], wind, dt } = weather;
 
   const iconUrl = `https://openweathermap.org/img/wn/${current.icon}@2x.png`;
